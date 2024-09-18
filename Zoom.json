@@ -6,7 +6,14 @@
     "homepage": "https://zoom.us",
     "installer": {
         "script": [
-            "Start-Process \"$dir\\ZoomInstallerFull.exe\" -ArgumentList \"/silent /install\" -Wait"
+            "$zoomExePath = \"$env:APPDATA\\Zoom\\bin\\Zoom.exe\"",
+            "if (Test-Path $zoomExePath) {",
+            "    Write-Host 'Zoom installed. Updating Zoom.'",
+            "    Start-Process \"$dir\\ZoomInstallerFull.exe\" -ArgumentList '/silent /install' -Wait",
+            "} else {",
+            "    Write-Host 'Zoom not found. Installing Zoom.'",
+            "    Start-Process \"$dir\\ZoomInstallerFull.exe\" -ArgumentList '/silent /install' -Wait",
+            "}"
         ]
     },
     "bin": [
