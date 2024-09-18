@@ -1,10 +1,12 @@
 {
-    "version":  "6.2.0",
-    "license":  "",
-    "extract_dir":  "",
-    "url":  "https://zoom.us/client/latest/ZoomInstallerFull.exe",
-    "depends":  "",
-    "homepage":  "",
-    "hash":  "",
-    "bin":  ""
+    "version": "6.2.0",
+    "license": "Proprietary",
+    "extract_dir": "",
+    "url": "https://zoom.us/client/latest/ZoomInstallerFull.exe",
+    "hash": "", 
+    "homepage": "https://zoom.us",
+    "bin": [
+        "C:/Users/%USERNAME%/AppData/Roaming/Zoom/bin/Zoom.exe"
+    ],
+    "depends": ""
 }
