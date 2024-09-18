@@ -1,18 +1,21 @@
-{
-    "version": "6.2.0",
+"version": "6.2.0",
     "license": "Proprietary",
-    "extract_dir": "",
     "url": "https://zoom.us/client/latest/ZoomInstallerFull.exe",
-    "hash": "", 
+    "hash": "<calculated SHA-256 hash>",
     "homepage": "https://zoom.us",
+    "installer": {
+        "script": [
+            "Start-Process \"$dir\\ZoomInstallerFull.exe\" -ArgumentList \"/silent /install\" -Wait"
+        ]
+    },
     "bin": [
-        "C:/Users/%USERNAME%/AppData/Roaming/Zoom/bin/Zoom.exe"
+        "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe"
     ],
-    "depends": ""
     "shortcuts": [
-    [
-      "C:/Users/%USERNAME%/AppData/Roaming/Zoom/bin/Zoom.exe",
-      "zoom"
-    ]
-  ]
+        [
+            "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+            "Zoom"
+        ]
+    ],
+    "depends": []
 }
