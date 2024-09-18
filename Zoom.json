@@ -5,14 +5,19 @@
     "url": "https://zoom.us/client/latest/ZoomInstallerFull.exe",
     "hash": "EF8C86D31582F84196E83A4F847F1D5DA6DE3A4CF1C8F9F0ECE93BF7284A4DAA", 
     "homepage": "https://zoom.us",
+    "installer": {
+        "script": [
+            "Start-Process \"$dir\\ZoomInstallerFull.exe\" -ArgumentList \"/silent /install\" -Wait"
+        ]
+    },
     "bin": [
         "C:/Users/%USERPROFILE%/AppData/Roaming/Zoom/bin/Zoom.exe"
     ],
-    "depends": "",
     "shortcuts": [
         [
             "C:/Users/%USERPROFILE%/AppData/Roaming/Zoom/bin/Zoom.exe",
             "zoom"
         ]
-    ]
+    ],
+    "depends": []
 }
