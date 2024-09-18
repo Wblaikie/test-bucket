@@ -1,7 +1,6 @@
 {
     "version": "6.2.0",
     "license": "Proprietary",
-    "extract_dir": "",
     "url": "https://zoom.us/client/latest/ZoomInstallerFull.exe",
     "hash": "EF8C86D31582F84196E83A4F847F1D5DA6DE3A4CF1C8F9F0ECE93BF7284A4DAA",
     "homepage": "https://zoom.us",
@@ -19,5 +18,6 @@
             "zoom"
         ]
     ],
-    "depends": []
+    "depends": [],
+    "extract_dir": "C:/Users/$env:USERNAME/AppData/Roaming/Zoom"  // Ensure this is the target directory
 }
