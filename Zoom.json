@@ -26,5 +26,5 @@
         ]
     ],
     "depends": [],
-    "extract_dir": "C:/Users/$env:USERNAME/AppData/Roaming/Zoom"  // Ensure this is the target directory
+    "extract_dir": "C:/Users/$env:USERNAME/AppData/Roaming/Zoom"
 }
