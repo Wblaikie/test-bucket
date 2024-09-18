@@ -9,4 +9,10 @@
         "C:/Users/%USERNAME%/AppData/Roaming/Zoom/bin/Zoom.exe"
     ],
     "depends": ""
+    "shortcuts": [
+    [
+      "C:/Users/%USERNAME%/AppData/Roaming/Zoom/bin/Zoom.exe",
+      "zoom"
+    ]
+  ]
 }
