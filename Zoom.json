@@ -17,12 +17,12 @@
         ]
     },
     "bin": [
-        "C:/Users/$env:USERNAME/AppData/Roaming/Zoom/bin/Zoom.exe"
+        "C:/Users/%USERNAME%/AppData/Roaming/Zoom/bin/Zoom.exe"
     ],
     "shortcuts": [
         [
-            "C:/Users/$env:USERNAME/AppData/Roaming/Zoom/bin/Zoom.exe",
-            "zoom"
+            "C:/Users/%USERNAME%/AppData/Roaming/Zoom/bin/Zoom.exe",
+            "Zoom"
         ]
     ],
     "depends": []
