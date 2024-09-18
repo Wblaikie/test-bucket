@@ -25,6 +25,5 @@
             "zoom"
         ]
     ],
-    "depends": [],
-    "extract_dir": "C:/Users/$env:USERNAME/AppData/Roaming/Zoom"
+    "depends": []
 }
