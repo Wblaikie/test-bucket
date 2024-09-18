@@ -11,11 +11,11 @@
         ]
     },
     "bin": [
-        "C:/Users/%USERNAME%/AppData/Roaming/Zoom/bin/Zoom.exe"
+        "%USERPROFILE%/AppData/Roaming/Zoom/bin/Zoom.exe"
     ],
     "shortcuts": [
         [
-            "C:/Users/%USERNAME%/AppData/Roaming/Zoom/bin/Zoom.exe",
+            "%USERPROFILE%/AppData/Roaming/Zoom/bin/Zoom.exe",
             "zoom"
         ]
     ],
